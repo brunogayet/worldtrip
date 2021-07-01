@@ -1,0 +1,3065 @@
+ {
+    "sections": [
+      {
+        "id": 1,
+        "title": "vida noturna",
+        "image": "/images/cocktail.svg"
+      },
+      {
+        "id": 2,
+        "title": "praia",
+        "image": "/images/surf.svg"
+      },
+      {
+        "id": 3,
+        "title": "moderno",
+        "image": "/images/building.svg"
+      },
+      {
+        "id": 4,
+        "title": "clássico",
+        "image": "/images/museum.svg"
+      },
+      {
+        "id": 5,
+        "title": "Gastronomia",
+        "image": "/images/gastronomia.svg"
+      },
+      {
+        "id": 6,
+        "title": "Compras",
+        "image": "/images/compras.svg"
+      },
+      {
+        "id": 7,
+        "title": "Natureza",
+        "image": "/images/natureza.svg"
+      },
+      {
+        "id": 8,
+        "title": "Jogos",
+        "image": "/images/jogos.svg"
+      }
+    ],
+    "continents": [
+        {
+            "id": 1,
+            "uid": "europa",
+            "title": "Europa",
+            "subtitle": "O continente mais antigo.",
+            "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste.",
+            "image_slider": "/images/continents/europe.jpg",
+            "image_cover": "/images/continents/europe_cover.jpg",
+            "amount_countries": 50,
+            "amount_languages": 289,
+            "stats_languages": {
+              "institutional": 73,
+              "developing": 66,
+              "vigorous": 23,
+              "in_trouble": 74,
+              "dying": 53
+            }
+        },
+        {
+            "id": 2,
+            "uid": "asia",
+            "title": "Ásia",
+            "subtitle": "O maior dos continentes.",
+            "description": "A Ásia é o maior dos continentes, tanto em área como em população. Abrange um terço das partes sólidas da superfície da Terra e é responsável por abrigar quase três quintos da população mundial.",
+            "image_slider": "/images/continents/asia.jpg",
+            "image_cover": "/images/continents/asia_cover.jpg",
+            "amount_countries": 51,
+            "amount_languages": 2314,
+            "stats_languages": {
+              "institutional": 193,
+              "developing": 354,
+              "vigorous": 662,
+              "in_trouble": 900,
+              "dying": 205
+            }
+        },
+        {
+            "id": 3,
+            "uid": "america-do-norte",
+            "title": "América do Norte",
+            "subtitle": "O segundo maior continente.",
+            "description": "A América do Norte está localizada no extremo norte das Américas e é composta por apenas três países: Estados Unidos, Canadá e México, além de territórios de domínios europeus, como a Groelândia (pertencente ao Reino da Dinamarca, com representação no parlamento) e Bermudas (dependência britânica).",
+            "image_slider": "/images/continents/north_america.jpg",
+            "image_cover": "/images/continents/north_america_cover.jpg",
+            "amount_countries": 3,
+            "amount_languages": 543,
+            "stats_languages": {
+              "institutional": 8,
+              "developing": 87,
+              "vigorous": 76,
+              "in_trouble": 148,
+              "dying": 224
+            }
+        },
+        {
+            "id": 4,
+            "uid": "america-do-sul",
+            "title": "América do Sul",
+            "subtitle": "Onde o idioma Espanhol e Português reinam.",
+            "description": "A América do Sul faz parte da América, que é o segundo maior continente do mundo. (O maior é a Ásia.) Como parte do continente americano, a América do Sul é considerada um subcontinente. Os outros dois subcontinentes da América são a América do Norte e a América Central.",
+            "image_slider": "/images/continents/south_america.jpg",
+            "image_cover": "/images/continents/south_america_cover.jpg",
+            "amount_countries": 12,
+            "amount_languages": 455,
+            "stats_languages": {
+              "institutional": 17,
+              "developing": 111,
+              "vigorous": 71,
+              "in_trouble": 117,
+              "dying": 139
+            }
+        },
+        {
+            "id": 5,
+            "uid": "africa",
+            "title": "África",
+            "subtitle": "O segundo continente mais populoso.",
+            "description": "A África é o terceiro continente mais extenso (depois da Ásia e da América) com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3% da área total da terra firme do planeta. É o segundo continente mais populoso da Terra (atrás da Ásia) com cerca de um bilhão de pessoas (estimativa para 2005), representando cerca de um sétimo da população mundial, e 54 países independentes.",
+            "image_slider": "/images/continents/africa.jpg",
+            "image_cover": "/images/continents/africa_cover.jpg",
+            "amount_countries": 54,
+            "amount_languages": 2154,
+            "stats_languages": {
+              "institutional": 198,
+              "developing": 531,
+              "vigorous": 907,
+              "in_trouble": 390,
+              "dying": 128
+            }
+        },
+        {
+            "id": 6,
+            "uid": "oceania",
+            "title": "Oceania",
+            "subtitle": "O menor e mais novo continente.",
+            "description": "A Oceania é o continente mais isolado do mundo, sua barreira geográfica fez com que fosse o último a ser descoberto pelos europeus. Em razão desse atraso em seu descobrimento ficou conhecido como \"mundo novo\".",
+            "image_slider": "/images/continents/oceania.jpg",
+            "image_cover": "/images/continents/oceania_cover.jpg",
+            "amount_countries": 14,
+            "amount_languages": 1323,
+            "stats_languages": {
+              "institutional": 36,
+              "developing": 301,
+              "vigorous": 367,
+              "in_trouble": 392,
+              "dying": 227
+            }
+        }
+    ],
+    "wpFcTop100Cities19": [
+        {
+            "ranking": 1,
+            "city": "Hong Kong",
+            "country": "China",
+            "arrivals_mm": 26716.8,
+            "growth_perc_year": -8.7,
+            "rank_movement_2018_2019": 0,
+            "city_pt_br": "Hong Kong",
+            "country_pt_br": "China",
+            "continentId": 2,
+            "image_city": "/images/cities/city_hong_kong.jpg",
+            "image_country_flag": "/images/countries/flag_china.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 2,
+            "city": "Bangkok",
+            "country": "Thailand",
+            "arrivals_mm": 25847.8,
+            "growth_perc_year": 6.9,
+            "rank_movement_2018_2019": 0,
+            "city_pt_br": "Bangkok",
+            "country_pt_br": "Tailândia",
+            "continentId": 2,
+            "image_city": "/images/cities/city_bangkok.jpg",
+            "image_country_flag": "/images/countries/flag_thailand.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 3,
+            "city": "Macau",
+            "country": "China",
+            "arrivals_mm": 20637.1,
+            "growth_perc_year": 9,
+            "rank_movement_2018_2019": 1,
+            "city_pt_br": "Macau",
+            "country_pt_br": "China",
+            "continentId": 2,
+            "image_city": "/images/cities/city_macau.jpg",
+            "image_country_flag": "/images/countries/flag_china.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 4,
+            "city": "Singapore",
+            "country": "Singapore",
+            "arrivals_mm": 19760.8,
+            "growth_perc_year": 6.5,
+            "rank_movement_2018_2019": 1,
+            "city_pt_br": "Cingapura",
+            "country_pt_br": "Singapura",
+            "continentId": 2,
+            "image_city": "/images/cities/city_singapore.jpg",
+            "image_country_flag": "/images/countries/flag_singapore.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 5,
+            "city": "London",
+            "country": "United Kingdom",
+            "arrivals_mm": 19559.9,
+            "growth_perc_year": 1.7,
+            "rank_movement_2018_2019": 2,
+            "city_pt_br": "Londres",
+            "country_pt_br": "Reino Unido",
+            "continentId": 1,
+            "image_city": "/images/cities/city_london.jpg",
+            "image_country_flag": "/images/countries/flag_united_kingdom.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 6,
+            "city": "Paris",
+            "country": "France",
+            "arrivals_mm": 19087.9,
+            "growth_perc_year": 8.7,
+            "rank_movement_2018_2019": 0,
+            "city_pt_br": "Paris",
+            "country_pt_br": "França",
+            "continentId": 1,
+            "image_city": "/images/cities/city_paris.jpg",
+            "image_country_flag": "/images/countries/flag_france.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 7,
+            "city": "Dubai",
+            "country": "United Arab Emirates",
+            "arrivals_mm": 16328.3,
+            "growth_perc_year": 2.6,
+            "rank_movement_2018_2019": 0,
+            "city_pt_br": "Dubai",
+            "country_pt_br": "Emirados Árabes Unidos",
+            "continentId": 2,
+            "image_city": "/images/cities/city_dubai.jpg",
+            "image_country_flag": "/images/countries/flag_united_arab_emirates.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 8,
+            "city": "Delhi",
+            "country": "India",
+            "arrivals_mm": 15196.5,
+            "growth_perc_year": 20.2,
+            "rank_movement_2018_2019": 3,
+            "city_pt_br": "Deli",
+            "country_pt_br": "Índia",
+            "continentId": 2,
+            "image_city": "/images/cities/city_delhi.jpg",
+            "image_country_flag": "/images/countries/flag_india.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 9,
+            "city": "Istanbul",
+            "country": "Turkey",
+            "arrivals_mm": 14715.9,
+            "growth_perc_year": 9.6,
+            "rank_movement_2018_2019": 1,
+            "city_pt_br": "Istanbul",
+            "country_pt_br": "Turquia",
+            "continentId": 2,
+            "image_city": "/images/cities/city_istanbul.jpg",
+            "image_country_flag": "/images/countries/flag_turkey.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 10,
+            "city": "Kuala Lumpur",
+            "country": "Malaysia",
+            "arrivals_mm": 14072.4,
+            "growth_perc_year": 4.8,
+            "rank_movement_2018_2019": 1,
+            "city_pt_br": "Kuala Lumpur",
+            "country_pt_br": "Malásia",
+            "continentId": 2,
+            "image_city": "/images/cities/city_kuala_lumpur.jpg",
+            "image_country_flag": "/images/countries/flag_malaysia.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 11,
+            "city": "New York City",
+            "country": "United States",
+            "arrivals_mm": 14010,
+            "growth_perc_year": 3,
+            "rank_movement_2018_2019": 3,
+            "city_pt_br": "Nova Iorque",
+            "country_pt_br": "Estados Unidos",
+            "continentId": 3,
+            "image_city": "/images/cities/city_new_york.jpg",
+            "image_country_flag": "/images/countries/flag_united_states.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 12,
+            "city": "Antalya",
+            "country": "Turkey",
+            "arrivals_mm": 13332.1,
+            "growth_perc_year": 7.2,
+            "rank_movement_2018_2019": 0,
+            "city_pt_br": "Antália",
+            "country_pt_br": "Turquia",
+            "continentId": 2,
+            "image_city": "/images/cities/city_antalya.jpg",
+            "image_country_flag": "/images/countries/flag_turkey.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 13,
+            "city": "Mumbai",
+            "country": "India",
+            "arrivals_mm": 12442.4,
+            "growth_perc_year": 17.5,
+            "rank_movement_2018_2019": 1,
+            "city_pt_br": "Mumbai",
+            "country_pt_br": "Índia",
+            "continentId": 2,
+            "image_city": "/images/cities/city_mumbai.jpg",
+            "image_country_flag": "/images/countries/flag_india.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 14,
+            "city": "Shenzhen",
+            "country": "China",
+            "arrivals_mm": 12324.1,
+            "growth_perc_year": 1,
+            "rank_movement_2018_2019": 1,
+            "city_pt_br": "Shenzhen",
+            "country_pt_br": "China",
+            "continentId": 2,
+            "image_city": "/images/cities/city_shenzhen.jpg",
+            "image_country_flag": "/images/countries/flag_china.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 15,
+            "city": "Phuket",
+            "country": "Thailand",
+            "arrivals_mm": 10965.2,
+            "growth_perc_year": 3.9,
+            "rank_movement_2018_2019": 0,
+            "city_pt_br": "Phuket",
+            "country_pt_br": "Tailândia",
+            "continentId": 2,
+            "image_city": "/images/cities/city_phuket.jpg",
+            "image_country_flag": "/images/countries/flag_thailand.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 16,
+            "city": "Tokyo",
+            "country": "Japan",
+            "arrivals_mm": 10443.1,
+            "growth_perc_year": 4.6,
+            "rank_movement_2018_2019": 1,
+            "city_pt_br": "Tóquio",
+            "country_pt_br": "Japão",
+            "continentId": 2,
+            "image_city": "/images/cities/city_tokyo.jpg",
+            "image_country_flag": "/images/countries/flag_japan.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 17,
+            "city": "Rome",
+            "country": "Italy",
+            "arrivals_mm": 10317,
+            "growth_perc_year": 2.5,
+            "rank_movement_2018_2019": 1,
+            "city_pt_br": "Roma",
+            "country_pt_br": "Itália",
+            "continentId": 1,
+            "image_city": "/images/cities/city_rome.jpg",
+            "image_country_flag": "/images/countries/flag_italy.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 18,
+            "city": "Agra",
+            "country": "India",
+            "arrivals_mm": 10127.4,
+            "growth_perc_year": 24.4,
+            "rank_movement_2018_2019": 8,
+            "city_pt_br": "Agra",
+            "country_pt_br": "Índia",
+            "continentId": 2,
+            "image_city": "/images/cities/city_agra.jpg",
+            "image_country_flag": "/images/countries/flag_india.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 19,
+            "city": "Taipei",
+            "country": "Taiwan",
+            "arrivals_mm": 9981.7,
+            "growth_perc_year": 4,
+            "rank_movement_2018_2019": 0,
+            "city_pt_br": "Taipé",
+            "country_pt_br": "Taiwan",
+            "continentId": 2,
+            "image_city": "/images/cities/city_taipei.jpg",
+            "image_country_flag": "/images/countries/flag_taiwan.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 20,
+            "city": "Pattaya",
+            "country": "Thailand",
+            "arrivals_mm": 9951.9,
+            "growth_perc_year": 3.6,
+            "rank_movement_2018_2019": 2,
+            "city_pt_br": "Pattaya",
+            "country_pt_br": "Tailândia",
+            "continentId": 2,
+            "image_city": "/images/cities/city_pattaya.jpg",
+            "image_country_flag": "/images/countries/flag_thailand.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 21,
+            "city": "Mecca",
+            "country": "Saudi Arabia",
+            "arrivals_mm": 9833,
+            "growth_perc_year": 2.8,
+            "rank_movement_2018_2019": 1,
+            "city_pt_br": "Meca",
+            "country_pt_br": "Arábia Saudita",
+            "continentId": 2,
+            "image_city": "/images/cities/city_mecca.jpg",
+            "image_country_flag": "/images/countries/flag_saudi_arabia.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 22,
+            "city": "Prague",
+            "country": "Czech Republic",
+            "arrivals_mm": 9150.9,
+            "growth_perc_year": 2.3,
+            "rank_movement_2018_2019": 0,
+            "city_pt_br": "Praga",
+            "country_pt_br": "República Checa",
+            "continentId": 1,
+            "image_city": "/images/cities/city_prague.jpg",
+            "image_country_flag": "/images/countries/flag_czech_republic.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 23,
+            "city": "Seoul",
+            "country": "South Korea",
+            "arrivals_mm": 9105.9,
+            "growth_perc_year": 8,
+            "rank_movement_2018_2019": 1,
+            "city_pt_br": "Seul",
+            "country_pt_br": "Coreia do Sul",
+            "continentId": 2,
+            "image_city": "/images/cities/city_seoul.jpg",
+            "image_country_flag": "/images/countries/flag_south_korea.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 24,
+            "city": "Guangzhou",
+            "country": "China",
+            "arrivals_mm": 9006.3,
+            "growth_perc_year": 0,
+            "rank_movement_2018_2019": 3,
+            "city_pt_br": "Guangzhou",
+            "country_pt_br": "China",
+            "continentId": 2,
+            "image_city": "/images/cities/city_guangzhou.jpg",
+            "image_country_flag": "/images/countries/flag_china.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 25,
+            "city": "Osaka",
+            "country": "Japan",
+            "arrivals_mm": 8998.9,
+            "growth_perc_year": 14.5,
+            "rank_movement_2018_2019": 3,
+            "city_pt_br": "Osaka",
+            "country_pt_br": "Japão",
+            "continentId": 2,
+            "image_city": "/images/cities/city_osaka.jpg",
+            "image_country_flag": "/images/countries/flag_japan.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 26,
+            "city": "Amsterdam",
+            "country": "Netherlands",
+            "arrivals_mm": 8835.4,
+            "growth_perc_year": 5.8,
+            "rank_movement_2018_2019": 1,
+            "city_pt_br": "Amsterdam",
+            "country_pt_br": "Países Baixos",
+            "continentId": 1,
+            "image_city": "/images/cities/city_amsterdam.jpg",
+            "image_country_flag": "/images/countries/flag_netherlands.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 27,
+            "city": "Medina",
+            "country": "Saudi Arabia",
+            "arrivals_mm": 8820.7,
+            "growth_perc_year": 3.2,
+            "rank_movement_2018_2019": 4,
+            "city_pt_br": "Medina",
+            "country_pt_br": "Arábia Saudita",
+            "continentId": 2,
+            "image_city": "/images/cities/city_medina.jpg",
+            "image_country_flag": "/images/countries/flag_saudi_arabia.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 28,
+            "city": "Denpasar",
+            "country": "Indonesia",
+            "arrivals_mm": 8582.8,
+            "growth_perc_year": 19.4,
+            "rank_movement_2018_2019": 4,
+            "city_pt_br": "Denpasar",
+            "country_pt_br": "Indonésia",
+            "continentId": 2,
+            "image_city": "/images/cities/city_denpasar.jpg",
+            "image_country_flag": "/images/countries/flag_indonesia.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 29,
+            "city": "Miami",
+            "country": "United States",
+            "arrivals_mm": 8336.8,
+            "growth_perc_year": 2.7,
+            "rank_movement_2018_2019": 2,
+            "city_pt_br": "Miami",
+            "country_pt_br": "Estados Unidos",
+            "continentId": 3,
+            "image_city": "/images/cities/city_miami.jpg",
+            "image_country_flag": "/images/countries/flag_united_states.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 30,
+            "city": "Ho Chi Minh City",
+            "country": "Vietnam",
+            "arrivals_mm": 8208,
+            "growth_perc_year": 14,
+            "rank_movement_2018_2019": 1,
+            "city_pt_br": "Cidade de Ho Chi Minh",
+            "country_pt_br": "Vietnã",
+            "continentId": 2,
+            "image_city": "/images/cities/city_ho_chi_minh_city.jpg",
+            "image_country_flag": "/images/countries/flag_vietnam.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 31,
+            "city": "Chennai",
+            "country": "India",
+            "arrivals_mm": 7930.1,
+            "growth_perc_year": 23.5,
+            "rank_movement_2018_2019": 5,
+            "city_pt_br": "Chennai",
+            "country_pt_br": "Índia",
+            "continentId": 2,
+            "image_city": "/images/cities/city_chennai.jpg",
+            "image_country_flag": "/images/countries/flag_india.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 32,
+            "city": "Shanghai",
+            "country": "China",
+            "arrivals_mm": 7745.5,
+            "growth_perc_year": 3.5,
+            "rank_movement_2018_2019": 2,
+            "city_pt_br": "Xangai",
+            "country_pt_br": "China",
+            "continentId": 2,
+            "image_city": "/images/cities/city_shanghai.jpg",
+            "image_country_flag": "/images/countries/flag_china.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 33,
+            "city": "Los Angeles",
+            "country": "United States",
+            "arrivals_mm": 7725.9,
+            "growth_perc_year": 3,
+            "rank_movement_2018_2019": 4,
+            "city_pt_br": "Los Angeles",
+            "country_pt_br": "Estados Unidos",
+            "continentId": 3,
+            "image_city": "/images/cities/city_los_angeles.jpg",
+            "image_country_flag": "/images/countries/flag_united_states.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 34,
+            "city": "Jaipur",
+            "country": "India",
+            "arrivals_mm": 7562.9,
+            "growth_perc_year": 18.5,
+            "rank_movement_2018_2019": 5,
+            "city_pt_br": "Jaipur",
+            "country_pt_br": "Índia",
+            "continentId": 2,
+            "image_city": "/images/cities/city_jaipur.jpg",
+            "image_country_flag": "/images/countries/flag_india.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 35,
+            "city": "Johor Bahru",
+            "country": "Malaysia",
+            "arrivals_mm": 7227.4,
+            "growth_perc_year": 13,
+            "rank_movement_2018_2019": 3,
+            "city_pt_br": "Johor Bahru",
+            "country_pt_br": "Malásia",
+            "continentId": 2,
+            "image_city": "/images/cities/city_johor_bahru.jpg",
+            "image_country_flag": "/images/countries/flag_malaysia.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 36,
+            "city": "Barcelona",
+            "country": "Spain",
+            "arrivals_mm": 7016.6,
+            "growth_perc_year": 4.5,
+            "rank_movement_2018_2019": 3,
+            "city_pt_br": "Barcelona",
+            "country_pt_br": "Espanha",
+            "continentId": 1,
+            "image_city": "/images/cities/city_barcelona.jpg",
+            "image_country_flag": "/images/countries/flag_spain.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 37,
+            "city": "Cairo",
+            "country": "Egypt",
+            "arrivals_mm": 6808.3,
+            "growth_perc_year": 18.3,
+            "rank_movement_2018_2019": 5,
+            "city_pt_br": "Cairo",
+            "country_pt_br": "Egito",
+            "continentId": 5,
+            "image_city": "/images/cities/city_cairo.jpg",
+            "image_country_flag": "/images/countries/flag_egypt.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 38,
+            "city": "Las Vegas",
+            "country": "United States",
+            "arrivals_mm": 6639.3,
+            "growth_perc_year": 0.7,
+            "rank_movement_2018_2019": 4,
+            "city_pt_br": "Las Vegas",
+            "country_pt_br": "Estados Unidos",
+            "continentId": 3,
+            "image_city": "/images/cities/city_las_vegas.jpg",
+            "image_country_flag": "/images/countries/flag_united_states.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 39,
+            "city": "Vienna",
+            "country": "Austria",
+            "arrivals_mm": 6634.7,
+            "growth_perc_year": 3.5,
+            "rank_movement_2018_2019": 2,
+            "city_pt_br": "Viena",
+            "country_pt_br": "Áustria",
+            "continentId": 1,
+            "image_city": "/images/cities/city_vienna.jpg",
+            "image_country_flag": "/images/countries/flag_austria.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 40,
+            "city": "Milan",
+            "country": "Italy",
+            "arrivals_mm": 6604.4,
+            "growth_perc_year": 1.9,
+            "rank_movement_2018_2019": 5,
+            "city_pt_br": "Milão",
+            "country_pt_br": "Itália",
+            "continentId": 1,
+            "image_city": "/images/cities/city_milan.jpg",
+            "image_country_flag": "/images/countries/flag_italy.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 41,
+            "city": "Athens",
+            "country": "Greece",
+            "arrivals_mm": 6301.3,
+            "growth_perc_year": 10,
+            "rank_movement_2018_2019": 2,
+            "city_pt_br": "Atenas",
+            "country_pt_br": "Grécia",
+            "continentId": 1,
+            "image_city": "/images/cities/city_athens.jpg",
+            "image_country_flag": "/images/countries/flag_greece.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 42,
+            "city": "Ha Long",
+            "country": "Vietnam",
+            "arrivals_mm": 6247.9,
+            "growth_perc_year": 18,
+            "rank_movement_2018_2019": 6,
+            "city_pt_br": "Ha Long",
+            "country_pt_br": "Vietnã",
+            "continentId": 2,
+            "image_city": "/images/cities/city_ha_long.jpg",
+            "image_country_flag": "/images/countries/flag_vietnam.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 43,
+            "city": "Berlin",
+            "country": "Germany",
+            "arrivals_mm": 6195.8,
+            "growth_perc_year": 4,
+            "rank_movement_2018_2019": 2,
+            "city_pt_br": "Berlim",
+            "country_pt_br": "Alemanha",
+            "continentId": 1,
+            "image_city": "/images/cities/city_berlin.jpg",
+            "image_country_flag": "/images/countries/flag_germany.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 44,
+            "city": "Cancun",
+            "country": "Mexico",
+            "arrivals_mm": 6150,
+            "growth_perc_year": 1.8,
+            "rank_movement_2018_2019": 4,
+            "city_pt_br": "Cancún",
+            "country_pt_br": "México",
+            "continentId": 3,
+            "image_city": "/images/cities/city_cancun.jpg",
+            "image_country_flag": "/images/countries/flag_mexico.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 45,
+            "city": "Moscow",
+            "country": "Russia",
+            "arrivals_mm": 5969,
+            "growth_perc_year": 8.3,
+            "rank_movement_2018_2019": 0,
+            "city_pt_br": "Moscou",
+            "country_pt_br": "Rússia",
+            "continentId": 2,
+            "image_city": "/images/cities/city_moscow.jpg",
+            "image_country_flag": "/images/countries/flag_russia.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 46,
+            "city": "Orlando",
+            "country": "United States",
+            "arrivals_mm": 5725.7,
+            "growth_perc_year": 3.1,
+            "rank_movement_2018_2019": 2,
+            "city_pt_br": "Orlando",
+            "country_pt_br": "Estados Unidos",
+            "continentId": 3,
+            "image_city": "/images/cities/city_orlando.jpg",
+            "image_country_flag": "/images/countries/flag_united_states.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 47,
+            "city": "Madrid",
+            "country": "Spain",
+            "arrivals_mm": 5597.8,
+            "growth_perc_year": 2.9,
+            "rank_movement_2018_2019": 0,
+            "city_pt_br": "Madrid",
+            "country_pt_br": "Espanha",
+            "continentId": 1,
+            "image_city": "/images/cities/city_madrid.jpg",
+            "image_country_flag": "/images/countries/flag_spain.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 48,
+            "city": "Venice",
+            "country": "Italy",
+            "arrivals_mm": 5590.5,
+            "growth_perc_year": 1.6,
+            "rank_movement_2018_2019": 2,
+            "city_pt_br": "Veneza",
+            "country_pt_br": "Itália",
+            "continentId": 1,
+            "image_city": "/images/cities/city_venice.jpg",
+            "image_country_flag": "/images/countries/flag_italy.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 49,
+            "city": "Dublin",
+            "country": "Ireland",
+            "arrivals_mm": 5462.1,
+            "growth_perc_year": 4.8,
+            "rank_movement_2018_2019": 1,
+            "city_pt_br": "Dublin",
+            "country_pt_br": "Irlanda",
+            "continentId": 1,
+            "image_city": "/images/cities/city_dublin.jpg",
+            "image_country_flag": "/images/countries/flag_ireland.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 50,
+            "city": "Riyadh",
+            "country": "Saudi Arabia",
+            "arrivals_mm": 5451.9,
+            "growth_perc_year": 3.5,
+            "rank_movement_2018_2019": 1,
+            "city_pt_br": "Riade",
+            "country_pt_br": "Arábia Saudita",
+            "continentId": 2,
+            "image_city": "/images/cities/city_riyadh.jpg",
+            "image_country_flag": "/images/countries/flag_saudi_arabia.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 51,
+            "city": "Ha Noi",
+            "country": "Vietnam",
+            "arrivals_mm": 5132.3,
+            "growth_perc_year": 9.5,
+            "rank_movement_2018_2019": 1,
+            "city_pt_br": "Ha Noi",
+            "country_pt_br": "Vietnã",
+            "continentId": 2,
+            "image_city": "/images/cities/city_ha_noi.jpg",
+            "image_country_flag": "/images/countries/flag_vietnam.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 52,
+            "city": "Florence",
+            "country": "Italy",
+            "arrivals_mm": 5125.7,
+            "growth_perc_year": 1.3,
+            "rank_movement_2018_2019": 1,
+            "city_pt_br": "Florença",
+            "country_pt_br": "Itália",
+            "continentId": 1,
+            "image_city": "/images/cities/city_florence.jpg",
+            "image_country_flag": "/images/countries/flag_italy.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 53,
+            "city": "Toronto",
+            "country": "Canada",
+            "arrivals_mm": 4735.8,
+            "growth_perc_year": 5,
+            "rank_movement_2018_2019": 0,
+            "city_pt_br": "Toronto",
+            "country_pt_br": "Canadá",
+            "continentId": 3,
+            "image_city": "/images/cities/city_toronto.jpg",
+            "image_country_flag": "/images/countries/flag_canada.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 54,
+            "city": "Jakarta",
+            "country": "Indonesia",
+            "arrivals_mm": 4703,
+            "growth_perc_year": 16.6,
+            "rank_movement_2018_2019": 3,
+            "city_pt_br": "Jacarta",
+            "country_pt_br": "Indonésia",
+            "continentId": 2,
+            "image_city": "/images/cities/city_jakarta.jpg",
+            "image_country_flag": "/images/countries/flag_indonesia.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 55,
+            "city": "Jerusalem",
+            "country": "Israel",
+            "arrivals_mm": 4467.2,
+            "growth_perc_year": 13.7,
+            "rank_movement_2018_2019": 6,
+            "city_pt_br": "Jerusalém",
+            "country_pt_br": "Israel",
+            "continentId": 2,
+            "image_city": "/images/cities/city_jerusalem.jpg",
+            "image_country_flag": "/images/countries/flag_israel.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 56,
+            "city": "St. Petersburg",
+            "country": "Russia",
+            "arrivals_mm": 4457.2,
+            "growth_perc_year": 11.5,
+            "rank_movement_2018_2019": 3,
+            "city_pt_br": "São Petersburgo",
+            "country_pt_br": "Rússia",
+            "continentId": 2,
+            "image_city": "/images/cities/city_st_petersburg.jpg",
+            "image_country_flag": "/images/countries/flag_russia.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 57,
+            "city": "Sydney",
+            "country": "Australia",
+            "arrivals_mm": 4442.5,
+            "growth_perc_year": 8.6,
+            "rank_movement_2018_2019": 2,
+            "city_pt_br": "Sydney",
+            "country_pt_br": "Austrália",
+            "continentId": 6,
+            "image_city": "/images/cities/city_sydney.jpg",
+            "image_country_flag": "/images/countries/flag_australia.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 58,
+            "city": "Brussels",
+            "country": "Belgium",
+            "arrivals_mm": 4276,
+            "growth_perc_year": 8.5,
+            "rank_movement_2018_2019": 2,
+            "city_pt_br": "Bruxelas",
+            "country_pt_br": "Bélgica",
+            "continentId": 1,
+            "image_city": "/images/cities/city_brussels.jpg",
+            "image_country_flag": "/images/countries/flag_belgium.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 59,
+            "city": "Johannesburg",
+            "country": "South Africa",
+            "arrivals_mm": 4211,
+            "growth_perc_year": 2.2,
+            "rank_movement_2018_2019": 5,
+            "city_pt_br": "Joanesburgo",
+            "country_pt_br": "África do Sul",
+            "continentId": 5,
+            "image_city": "/images/cities/city_johannesburg.jpg",
+            "image_country_flag": "/images/countries/flag_south_africa.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 60,
+            "city": "Munich",
+            "country": "Germany",
+            "arrivals_mm": 4205.5,
+            "growth_perc_year": 3.4,
+            "rank_movement_2018_2019": 4,
+            "city_pt_br": "Munique",
+            "country_pt_br": "Alemanha",
+            "continentId": 1,
+            "image_city": "/images/cities/city_munich.jpg",
+            "image_country_flag": "/images/countries/flag_germany.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 61,
+            "city": "Beijing",
+            "country": "China",
+            "arrivals_mm": 4070.4,
+            "growth_perc_year": 1.7,
+            "rank_movement_2018_2019": 3,
+            "city_pt_br": "Pequim",
+            "country_pt_br": "China",
+            "continentId": 2,
+            "image_city": "/images/cities/city_beijing.jpg",
+            "image_country_flag": "/images/countries/flag_china.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 62,
+            "city": "Budapest",
+            "country": "Hungary",
+            "arrivals_mm": 4025.4,
+            "growth_perc_year": 5.3,
+            "rank_movement_2018_2019": 0,
+            "city_pt_br": "Budapeste",
+            "country_pt_br": "Hungria",
+            "continentId": 1,
+            "image_city": "/images/cities/city_budapest.jpg",
+            "image_country_flag": "/images/countries/flag_hungary.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 63,
+            "city": "Hurghada",
+            "country": "Egypt",
+            "arrivals_mm": 3866.1,
+            "growth_perc_year": 41.3,
+            "rank_movement_2018_2019": 19,
+            "city_pt_br": "Hurghada",
+            "country_pt_br": "Egito",
+            "continentId": 5,
+            "image_city": "/images/cities/city_hurghada.jpg",
+            "image_country_flag": "/images/countries/flag_egypt.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 64,
+            "city": "Penang Island",
+            "country": "Malaysia",
+            "arrivals_mm": 3705.2,
+            "growth_perc_year": 7.8,
+            "rank_movement_2018_2019": 1,
+            "city_pt_br": "Ilha de Penang",
+            "country_pt_br": "Malásia",
+            "continentId": 2,
+            "image_city": "/images/cities/city_penang_island.jpg",
+            "image_country_flag": "/images/countries/flag_malaysia.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 65,
+            "city": "Lisbon",
+            "country": "Portugal",
+            "arrivals_mm": 3639.9,
+            "growth_perc_year": 2.8,
+            "rank_movement_2018_2019": 2,
+            "city_pt_br": "Lisboa",
+            "country_pt_br": "Portugal",
+            "continentId": 1,
+            "image_city": "/images/cities/city_lisbon.jpg",
+            "image_country_flag": "/images/countries/flag_portugal.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 66,
+            "city": "Dammam",
+            "country": "Saudi Arabia",
+            "arrivals_mm": 3588.5,
+            "growth_perc_year": 2.6,
+            "rank_movement_2018_2019": 2,
+            "city_pt_br": "Dammam",
+            "country_pt_br": "Arábia Saudita",
+            "continentId": 2,
+            "image_city": "/images/cities/city_dammam.jpg",
+            "image_country_flag": "/images/countries/flag_saudi_arabia.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 67,
+            "city": "Cebu",
+            "country": "Philippines",
+            "arrivals_mm": 3539.6,
+            "growth_perc_year": 26.2,
+            "rank_movement_2018_2019": 10,
+            "city_pt_br": "Cebu",
+            "country_pt_br": "Filipinas",
+            "continentId": 2,
+            "image_city": "/images/cities/city_cebu.jpg",
+            "image_country_flag": "/images/countries/flag_philippines.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 68,
+            "city": "Vancouver",
+            "country": "Canada",
+            "arrivals_mm": 3398.4,
+            "growth_perc_year": 5.8,
+            "rank_movement_2018_2019": 1,
+            "city_pt_br": "Vancouver",
+            "country_pt_br": "Canadá",
+            "continentId": 3,
+            "image_city": "/images/cities/city_vancouver.jpg",
+            "image_country_flag": "/images/countries/flag_canada.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 69,
+            "city": "Kyoto",
+            "country": "Japan",
+            "arrivals_mm": 3339.2,
+            "growth_perc_year": 1.4,
+            "rank_movement_2018_2019": 2,
+            "city_pt_br": "Quioto",
+            "country_pt_br": "Japão",
+            "continentId": 2,
+            "image_city": "/images/cities/city_kyoto.jpg",
+            "image_country_flag": "/images/countries/flag_japan.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 70,
+            "city": "Zhuhai",
+            "country": "China",
+            "arrivals_mm": 3324.9,
+            "growth_perc_year": 2,
+            "rank_movement_2018_2019": 2,
+            "city_pt_br": "Zhuhai",
+            "country_pt_br": "China",
+            "continentId": 2,
+            "image_city": "/images/cities/city_zhuhai.jpg",
+            "image_country_flag": "/images/countries/flag_china.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 71,
+            "city": "Melbourne",
+            "country": "Australia",
+            "arrivals_mm": 3300,
+            "growth_perc_year": 14.2,
+            "rank_movement_2018_2019": 2,
+            "city_pt_br": "Melbourne",
+            "country_pt_br": "Austrália",
+            "continentId": 6,
+            "image_city": "/images/cities/city_melbourne.jpg",
+            "image_country_flag": "/images/countries/flag_australia.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 72,
+            "city": "Chiang Mai",
+            "country": "Thailand",
+            "arrivals_mm": 3257.5,
+            "growth_perc_year": 1.9,
+            "rank_movement_2018_2019": 2,
+            "city_pt_br": "Chiang Mai",
+            "country_pt_br": "Tailândia",
+            "continentId": 2,
+            "image_city": "/images/cities/city_chiang_mai.jpg",
+            "image_country_flag": "/images/countries/flag_thailand.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 73,
+            "city": "Copenhagen",
+            "country": "Denmark",
+            "arrivals_mm": 3185.6,
+            "growth_perc_year": 3.8,
+            "rank_movement_2018_2019": 2,
+            "city_pt_br": "Copenhague",
+            "country_pt_br": "Dinamarca",
+            "continentId": 1,
+            "image_city": "/images/cities/city_copenhagen.jpg",
+            "image_country_flag": "/images/countries/flag_denmark.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 74,
+            "city": "Kolkatta",
+            "country": "India",
+            "arrivals_mm": 3131.2,
+            "growth_perc_year": 10.8,
+            "rank_movement_2018_2019": 2,
+            "city_pt_br": "Kolkata",
+            "country_pt_br": "Índia",
+            "continentId": 2,
+            "image_city": "/images/cities/city_kolkatta.jpg",
+            "image_country_flag": "/images/countries/flag_india.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 75,
+            "city": "Heraklion",
+            "country": "Greece",
+            "arrivals_mm": 3034.6,
+            "growth_perc_year": -10,
+            "rank_movement_2018_2019": 10,
+            "city_pt_br": "Heraklion",
+            "country_pt_br": "Grécia",
+            "continentId": 1,
+            "image_city": "/images/cities/city_heraklion.jpg",
+            "image_country_flag": "/images/countries/flag_greece.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 76,
+            "city": "Marrakech",
+            "country": "Morocco",
+            "arrivals_mm": 3023.4,
+            "growth_perc_year": 6.5,
+            "rank_movement_2018_2019": 2,
+            "city_pt_br": "Marrakech",
+            "country_pt_br": "Marrocos",
+            "continentId": 5,
+            "image_city": "/images/cities/city_marrakech.jpg",
+            "image_country_flag": "/images/countries/flag_marocco.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 77,
+            "city": "San Francisco",
+            "country": "United States",
+            "arrivals_mm": 2987.5,
+            "growth_perc_year": 3,
+            "rank_movement_2018_2019": 6,
+            "city_pt_br": "São Francisco",
+            "country_pt_br": "Estados Unidos",
+            "continentId": 3,
+            "image_city": "/images/cities/city_san_francisco.jpg",
+            "image_country_flag": "/images/countries/flag_united_states.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 78,
+            "city": "Guilin",
+            "country": "China",
+            "arrivals_mm": 2980.5,
+            "growth_perc_year": 8.5,
+            "rank_movement_2018_2019": 1,
+            "city_pt_br": "Guilin",
+            "country_pt_br": "China",
+            "continentId": 2,
+            "image_city": "/images/cities/city_guilin.jpg",
+            "image_country_flag": "/images/countries/flag_china.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 79,
+            "city": "Tel Aviv",
+            "country": "Israel",
+            "arrivals_mm": 2978.1,
+            "growth_perc_year": 7.2,
+            "rank_movement_2018_2019": 1,
+            "city_pt_br": "Tel Aviv",
+            "country_pt_br": "Israel",
+            "continentId": 2,
+            "image_city": "/images/cities/city_tel_aviv.jpg",
+            "image_country_flag": "/images/countries/flag_israel.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 80,
+            "city": "Auckland",
+            "country": "New Zealand",
+            "arrivals_mm": 2926.2,
+            "growth_perc_year": 4.5,
+            "rank_movement_2018_2019": 3,
+            "city_pt_br": "Auckland",
+            "country_pt_br": "Nova Zelândia",
+            "continentId": 6,
+            "image_city": "/images/cities/city_auckland.jpg",
+            "image_country_flag": "/images/countries/flag_new_zealand.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 81,
+            "city": "Mugla",
+            "country": "Turkey",
+            "arrivals_mm": 2920.8,
+            "growth_perc_year": 7.2,
+            "rank_movement_2018_2019": 2,
+            "city_pt_br": "Mugla",
+            "country_pt_br": "Turquia",
+            "continentId": 2,
+            "image_city": "/images/cities/city_mugla.jpg",
+            "image_country_flag": "/images/countries/flag_turkey.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 82,
+            "city": "Krakow",
+            "country": "Poland",
+            "arrivals_mm": 2910,
+            "growth_perc_year": 2.1,
+            "rank_movement_2018_2019": 9,
+            "city_pt_br": "Cracóvia",
+            "country_pt_br": "Polônia",
+            "continentId": 1,
+            "image_city": "/images/cities/city_krakow.jpg",
+            "image_country_flag": "/images/countries/flag_poland.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 83,
+            "city": "Da Nang",
+            "country": "Vietnam",
+            "arrivals_mm": 2880.8,
+            "growth_perc_year": 15,
+            "rank_movement_2018_2019": 6,
+            "city_pt_br": "Da Nang",
+            "country_pt_br": "Vietnã",
+            "continentId": 2,
+            "image_city": "/images/cities/city_da_nang.jpg",
+            "image_country_flag": "/images/countries/flag_vietnam.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 84,
+            "city": "Honolulu",
+            "country": "United States",
+            "arrivals_mm": 2853.1,
+            "growth_perc_year": 4.2,
+            "rank_movement_2018_2019": -4,
+            "city_pt_br": "Honolulu",
+            "country_pt_br": "Estados Unidos",
+            "continentId": 3,
+            "image_city": "/images/cities/city_honolulu.jpg",
+            "image_country_flag": "/images/countries/flag_united_states.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 85,
+            "city": "Batam",
+            "country": "Indonesia",
+            "arrivals_mm": 2850.8,
+            "growth_perc_year": 14.4,
+            "rank_movement_2018_2019": 5,
+            "city_pt_br": "Batam",
+            "country_pt_br": "Indonésia",
+            "continentId": 2,
+            "image_city": "/images/cities/city_batam.jpg",
+            "image_country_flag": "/images/countries/flag_indonesia.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 86,
+            "city": "Warsaw",
+            "country": "Poland",
+            "arrivals_mm": 2827,
+            "growth_perc_year": 3.5,
+            "rank_movement_2018_2019": 4,
+            "city_pt_br": "Varsóvia",
+            "country_pt_br": "Polônia",
+            "continentId": 1,
+            "image_city": "/images/cities/city_warsaw.jpg",
+            "image_country_flag": "/images/countries/flag_poland.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 87,
+            "city": "Chiba",
+            "country": "Japan",
+            "arrivals_mm": 2777.5,
+            "growth_perc_year": 3.5,
+            "rank_movement_2018_2019": 2,
+            "city_pt_br": "Chiba",
+            "country_pt_br": "Japão",
+            "continentId": 2,
+            "image_city": "/images/cities/city_chiba.jpg",
+            "image_country_flag": "/images/countries/flag_japan.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 88,
+            "city": "Buenos Aires City",
+            "country": "Argentina",
+            "arrivals_mm": 2767.4,
+            "growth_perc_year": 3,
+            "rank_movement_2018_2019": 4,
+            "city_pt_br": "Buenos aires",
+            "country_pt_br": "Argentina",
+            "continentId": 4,
+            "image_city": "/images/cities/city_buenos_aires.jpg",
+            "image_country_flag": "/images/countries/flag_argentina.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 89,
+            "city": "Lima",
+            "country": "Peru",
+            "arrivals_mm": 2764,
+            "growth_perc_year": 9,
+            "rank_movement_2018_2019": 1,
+            "city_pt_br": "Lima",
+            "country_pt_br": "Peru",
+            "continentId": 4,
+            "image_city": "/images/cities/city_lima.jpg",
+            "image_country_flag": "/images/countries/flag_peru.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 90,
+            "city": "Frankfurt",
+            "country": "Germany",
+            "arrivals_mm": 2728.1,
+            "growth_perc_year": 3.5,
+            "rank_movement_2018_2019": 4,
+            "city_pt_br": "Frankfurt",
+            "country_pt_br": "Alemanha",
+            "continentId": 1,
+            "image_city": "/images/cities/city_frankfurt.jpg",
+            "image_country_flag": "/images/countries/flag_germany.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 91,
+            "city": "Stockholm",
+            "country": "Sweden",
+            "arrivals_mm": 2721.9,
+            "growth_perc_year": 4.5,
+            "rank_movement_2018_2019": 4,
+            "city_pt_br": "Estocolmo",
+            "country_pt_br": "Suécia",
+            "continentId": 1,
+            "image_city": "/images/cities/city_stockholm.jpg",
+            "image_country_flag": "/images/countries/flag_sweden.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 92,
+            "city": "Bangalore",
+            "country": "India",
+            "arrivals_mm": 2676.1,
+            "growth_perc_year": 19.5,
+            "rank_movement_2018_2019": 7,
+            "city_pt_br": "Bangalore",
+            "country_pt_br": "Índia",
+            "continentId": 2,
+            "image_city": "/images/cities/city_bangalore.jpg",
+            "image_country_flag": "/images/countries/flag_india.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 93,
+            "city": "Nice",
+            "country": "France",
+            "arrivals_mm": 2582.7,
+            "growth_perc_year": 4.7,
+            "rank_movement_2018_2019": 2,
+            "city_pt_br": "Nice",
+            "country_pt_br": "França",
+            "continentId": 1,
+            "image_city": "/images/cities/city_nice.jpg",
+            "image_country_flag": "/images/countries/flag_france.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 94,
+            "city": "Abu Dhabi",
+            "country": "United Arab Emirates",
+            "arrivals_mm": 2565.2,
+            "growth_perc_year": 6.8,
+            "rank_movement_2018_2019": 1,
+            "city_pt_br": "Abu Dhabi",
+            "country_pt_br": "Emirados Árabes Unidos",
+            "continentId": 2,
+            "image_city": "/images/cities/city_abu_dhabi.jpg",
+            "image_country_flag": "/images/countries/flag_united_arab_emirates.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 95,
+            "city": "Fukuoka",
+            "country": "Japan",
+            "arrivals_mm": 2525.7,
+            "growth_perc_year": 3.6,
+            "rank_movement_2018_2019": 3,
+            "city_pt_br": "Fukuoka",
+            "country_pt_br": "Japão",
+            "continentId": 2,
+            "image_city": "/images/cities/city_fukuoka.jpg",
+            "image_country_flag": "/images/countries/flag_japan.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 96,
+            "city": "Porto",
+            "country": "Portugal",
+            "arrivals_mm": 2491.7,
+            "growth_perc_year": 6.4,
+            "rank_movement_2018_2019": 1,
+            "city_pt_br": "Porto",
+            "country_pt_br": "Portugal",
+            "continentId": 1,
+            "image_city": "/images/cities/city_porto.jpg",
+            "image_country_flag": "/images/countries/flag_portugal.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 97,
+            "city": "Rhodes",
+            "country": "Greece",
+            "arrivals_mm": 2414.8,
+            "growth_perc_year": 3.3,
+            "rank_movement_2018_2019": 2,
+            "city_pt_br": "Rodes",
+            "country_pt_br": "Grécia",
+            "continentId": 1,
+            "image_city": "/images/cities/city_rhodes.jpg",
+            "image_country_flag": "/images/countries/flag_greece.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 98,
+            "city": "Krabi",
+            "country": "Thailand",
+            "arrivals_mm": 2386.2,
+            "growth_perc_year": 5.8,
+            "rank_movement_2018_2019": 1,
+            "city_pt_br": "Krabi",
+            "country_pt_br": "Tailândia",
+            "continentId": 2,
+            "image_city": "/images/cities/city_krabi.jpg",
+            "image_country_flag": "/images/countries/flag_thailand.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 99,
+            "city": "Rio de Janeiro",
+            "country": "Brazil",
+            "arrivals_mm": 2330.7,
+            "growth_perc_year": 2.3,
+            "rank_movement_2018_2019": 6,
+            "city_pt_br": "Rio de Janeiro",
+            "country_pt_br": "Brasil",
+            "continentId": 4,
+            "image_city": "/images/cities/city_rio_de_janeiro.jpg",
+            "image_country_flag": "/images/countries/flag_brazil.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        },
+        {
+            "ranking": 100,
+            "city": "Jeju",
+            "country": "South Korea",
+            "arrivals_mm": 2278.8,
+            "growth_perc_year": -3,
+            "rank_movement_2018_2019": 12,
+            "city_pt_br": "Jeju",
+            "country_pt_br": "Coreia do Sul",
+            "continentId": 2,
+            "image_city": "/images/cities/city_jeju.jpg",
+            "image_country_flag": "/images/countries/flag_south_korea.png",
+            "sections": [
+              1,
+              3,
+              8
+            ]
+        }
+    ],
+    "wpTop100Cities18": [
+        {
+          "ranking": 1,
+          "city": "Hong Kong",
+          "country": "China",
+          "arrivals_mm": 29262.7,
+          "growth_perc_year": 5,
+          "rank_movement_2013_2018": 0,
+          "city_pt_br": "Hong Kong",
+          "country_pt_br": "China",
+          "continentId": 2
+        },
+        {
+          "ranking": 2,
+          "city": "Bangkok",
+          "country": "Thailand",
+          "arrivals_mm": 24177.5,
+          "growth_perc_year": 7.7,
+          "rank_movement_2013_2018": 0,
+          "city_pt_br": "Bangkok",
+          "country_pt_br": "Tailândia",
+          "continentId": 2
+        },
+        {
+          "ranking": 3,
+          "city": "London",
+          "country": "United Kingdom",
+          "arrivals_mm": 19233,
+          "growth_perc_year": -3,
+          "rank_movement_2013_2018": 0,
+          "city_pt_br": "Londres",
+          "country_pt_br": "Reino Unido",
+          "continentId": 1
+        },
+        {
+          "ranking": 4,
+          "city": "Macau",
+          "country": "China",
+          "arrivals_mm": 18931.4,
+          "growth_perc_year": 9.2,
+          "rank_movement_2013_2018": 2,
+          "city_pt_br": "Macau",
+          "country_pt_br": "China",
+          "continentId": 2
+        },
+        {
+          "ranking": 5,
+          "city": "Singapore",
+          "country": "Singapore",
+          "arrivals_mm": 18551.2,
+          "growth_perc_year": 5.3,
+          "rank_movement_2013_2018": 1,
+          "city_pt_br": "Cingapura",
+          "country_pt_br": "Singapura",
+          "continentId": 2
+        },
+        {
+          "ranking": 6,
+          "city": "Paris",
+          "country": "France",
+          "arrivals_mm": 17560.2,
+          "growth_perc_year": 10.9,
+          "rank_movement_2013_2018": 1,
+          "city_pt_br": "Paris",
+          "country_pt_br": "França",
+          "continentId": 1
+        },
+        {
+          "ranking": 7,
+          "city": "Dubai",
+          "country": "United Arab Emirates",
+          "arrivals_mm": 15920.7,
+          "growth_perc_year": 0.8,
+          "rank_movement_2013_2018": 0,
+          "city_pt_br": "Dubai",
+          "country_pt_br": "Emirados Árabes Unidos",
+          "continentId": 2
+        },
+        {
+          "ranking": 8,
+          "city": "New York City",
+          "country": "United States",
+          "arrivals_mm": 13600,
+          "growth_perc_year": 3.8,
+          "rank_movement_2013_2018": 1,
+          "city_pt_br": "Nova Iorque",
+          "country_pt_br": "Estados Unidos",
+          "continentId": 3
+        },
+        {
+          "ranking": 9,
+          "city": "Kuala Lumpur",
+          "country": "Malaysia",
+          "arrivals_mm": 13434.3,
+          "growth_perc_year": 4.6,
+          "rank_movement_2013_2018": 1,
+          "city_pt_br": "Kuala Lumpur",
+          "country_pt_br": "Malásia",
+          "continentId": 2
+        },
+        {
+          "ranking": 10,
+          "city": "Istanbul",
+          "country": "Turkey",
+          "arrivals_mm": 13433,
+          "growth_perc_year": 25.2,
+          "rank_movement_2013_2018": 2,
+          "city_pt_br": "Istanbul",
+          "country_pt_br": "Turquia",
+          "continentId": 2
+        },
+        {
+          "ranking": 11,
+          "city": "Delhi",
+          "country": "India",
+          "arrivals_mm": 12645.3,
+          "growth_perc_year": 24.5,
+          "rank_movement_2013_2018": 30,
+          "city_pt_br": "Deli",
+          "country_pt_br": "Índia",
+          "continentId": 2
+        },
+        {
+          "ranking": 12,
+          "city": "Antalya",
+          "country": "Turkey",
+          "arrivals_mm": 12438.8,
+          "growth_perc_year": 31.2,
+          "rank_movement_2013_2018": 1,
+          "city_pt_br": "Antália",
+          "country_pt_br": "Turquia",
+          "continentId": 2
+        },
+        {
+          "ranking": 13,
+          "city": "Shenzhen",
+          "country": "China",
+          "arrivals_mm": 12202.1,
+          "growth_perc_year": 1.1,
+          "rank_movement_2013_2018": 5,
+          "city_pt_br": "Shenzhen",
+          "country_pt_br": "China",
+          "continentId": 2
+        },
+        {
+          "ranking": 14,
+          "city": "Mumbai",
+          "country": "India",
+          "arrivals_mm": 10590.1,
+          "growth_perc_year": 17.9,
+          "rank_movement_2013_2018": 28,
+          "city_pt_br": "Mumbai",
+          "country_pt_br": "Índia",
+          "continentId": 2
+        },
+        {
+          "ranking": 15,
+          "city": "Phuket",
+          "country": "Thailand",
+          "arrivals_mm": 10550.7,
+          "growth_perc_year": 4.4,
+          "rank_movement_2013_2018": 0,
+          "city_pt_br": "Phuket",
+          "country_pt_br": "Tailândia",
+          "continentId": 2
+        },
+        {
+          "ranking": 16,
+          "city": "Rome",
+          "country": "Italy",
+          "arrivals_mm": 10065.4,
+          "growth_perc_year": 5.6,
+          "rank_movement_2013_2018": 3,
+          "city_pt_br": "Roma",
+          "country_pt_br": "Itália",
+          "continentId": 1
+        },
+        {
+          "ranking": 17,
+          "city": "Tokyo",
+          "country": "Japan",
+          "arrivals_mm": 9985.1,
+          "growth_perc_year": 4.6,
+          "rank_movement_2013_2018": 15,
+          "city_pt_br": "Tóquio",
+          "country_pt_br": "Japão",
+          "continentId": 2
+        },
+        {
+          "ranking": 18,
+          "city": "Pattaya",
+          "country": "Thailand",
+          "arrivals_mm": 9606.4,
+          "growth_perc_year": 5.1,
+          "rank_movement_2013_2018": 1,
+          "city_pt_br": "Pattaya",
+          "country_pt_br": "Tailândia",
+          "continentId": 2
+        },
+        {
+          "ranking": 19,
+          "city": "Taipei",
+          "country": "Taiwan, China",
+          "arrivals_mm": 9597.8,
+          "growth_perc_year": 3.5,
+          "rank_movement_2013_2018": 1,
+          "city_pt_br": "Taipei",
+          "country_pt_br": "Taiwan, China",
+          "continentId": 2
+        },
+        {
+          "ranking": 20,
+          "city": "Mecca",
+          "country": "Saudi Arabia",
+          "arrivals_mm": 9565.2,
+          "growth_perc_year": -2.4,
+          "rank_movement_2013_2018": 1,
+          "city_pt_br": "Meca",
+          "country_pt_br": "Arábia Saudita",
+          "continentId": 2
+        },
+        {
+          "ranking": 21,
+          "city": "Guangzhou",
+          "country": "China",
+          "arrivals_mm": 9004.8,
+          "growth_perc_year": 0,
+          "rank_movement_2013_2018": 5,
+          "city_pt_br": "Guangzhou",
+          "country_pt_br": "China",
+          "continentId": 2
+        },
+        {
+          "ranking": 22,
+          "city": "Prague",
+          "country": "Czech Republic",
+          "arrivals_mm": 8948.6,
+          "growth_perc_year": 1.6,
+          "rank_movement_2013_2018": 3,
+          "city_pt_br": "Praga",
+          "country_pt_br": "República Checa",
+          "continentId": 1
+        },
+        {
+          "ranking": 23,
+          "city": "Medina",
+          "country": "Saudi Arabia",
+          "arrivals_mm": 8547.2,
+          "growth_perc_year": -2.4,
+          "rank_movement_2013_2018": 1,
+          "city_pt_br": "Medina",
+          "country_pt_br": "Arábia Saudita",
+          "continentId": 2
+        },
+        {
+          "ranking": 24,
+          "city": "Seoul",
+          "country": "South Korea",
+          "arrivals_mm": 8431.4,
+          "growth_perc_year": 10.1,
+          "rank_movement_2013_2018": 10,
+          "city_pt_br": "Seul",
+          "country_pt_br": "Coreia do Sul",
+          "continentId": 2
+        },
+        {
+          "ranking": 25,
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "arrivals_mm": 8354.2,
+          "growth_perc_year": 6.5,
+          "rank_movement_2013_2018": 3,
+          "city_pt_br": "Amsterdam",
+          "country_pt_br": "Países Baixos",
+          "continentId": 1
+        },
+        {
+          "ranking": 26,
+          "city": "Agra",
+          "country": "India",
+          "arrivals_mm": 8138.2,
+          "growth_perc_year": 22.5,
+          "rank_movement_2013_2018": 38,
+          "city_pt_br": "Agra",
+          "country_pt_br": "Índia",
+          "continentId": 2
+        },
+        {
+          "ranking": 27,
+          "city": "Miami",
+          "country": "United States",
+          "arrivals_mm": 8121.3,
+          "growth_perc_year": 4.1,
+          "rank_movement_2013_2018": 7,
+          "city_pt_br": "Miami",
+          "country_pt_br": "Estados Unidos",
+          "continentId": 3
+        },
+        {
+          "ranking": 28,
+          "city": "Osaka",
+          "country": "Japan",
+          "arrivals_mm": 7861.5,
+          "growth_perc_year": 19,
+          "rank_movement_2013_2018": 69,
+          "city_pt_br": "Osaka",
+          "country_pt_br": "Japão",
+          "continentId": 2
+        },
+        {
+          "ranking": 29,
+          "city": "Los Angeles",
+          "country": "United States",
+          "arrivals_mm": 7500,
+          "growth_perc_year": 4.7,
+          "rank_movement_2013_2018": 7,
+          "city_pt_br": "Los Angeles",
+          "country_pt_br": "Estados Unidos",
+          "continentId": 3
+        },
+        {
+          "ranking": 30,
+          "city": "Shanghai",
+          "country": "China",
+          "arrivals_mm": 7483.5,
+          "growth_perc_year": 4,
+          "rank_movement_2013_2018": 7,
+          "city_pt_br": "Xangai",
+          "country_pt_br": "China",
+          "continentId": 2
+        },
+        {
+          "ranking": 31,
+          "city": "Ho Chi Minh City",
+          "country": "Vietnam",
+          "arrivals_mm": 7200,
+          "growth_perc_year": 15.4,
+          "rank_movement_2013_2018": 6,
+          "city_pt_br": "Cidade de Ho Chi Minh",
+          "country_pt_br": "Vietnã",
+          "continentId": 2
+        },
+        {
+          "ranking": 32,
+          "city": "Denpasar",
+          "country": "Indonesia",
+          "arrivals_mm": 7185.6,
+          "growth_perc_year": 15.2,
+          "rank_movement_2013_2018": 13,
+          "city_pt_br": "Denpasar",
+          "country_pt_br": "Indonésia",
+          "continentId": 2
+        },
+        {
+          "ranking": 33,
+          "city": "Barcelona",
+          "country": "Spain",
+          "arrivals_mm": 6714.5,
+          "growth_perc_year": 6.8,
+          "rank_movement_2013_2018": 6,
+          "city_pt_br": "Barcelona",
+          "country_pt_br": "Espanha",
+          "continentId": 1
+        },
+        {
+          "ranking": 34,
+          "city": "Las Vegas",
+          "country": "United States",
+          "arrivals_mm": 6591.3,
+          "growth_perc_year": -1.4,
+          "rank_movement_2013_2018": 9,
+          "city_pt_br": "Las Vegas",
+          "country_pt_br": "Estados Unidos",
+          "continentId": 3
+        },
+        {
+          "ranking": 35,
+          "city": "Milan",
+          "country": "Italy",
+          "arrivals_mm": 6481.3,
+          "growth_perc_year": 2.1,
+          "rank_movement_2013_2018": 9,
+          "city_pt_br": "Milão",
+          "country_pt_br": "Itália",
+          "continentId": 1
+        },
+        {
+          "ranking": 36,
+          "city": "Chennai",
+          "country": "India",
+          "arrivals_mm": 6422.8,
+          "growth_perc_year": 26.3,
+          "rank_movement_2013_2018": 7,
+          "city_pt_br": "Chennai",
+          "country_pt_br": "Índia",
+          "continentId": 2
+        },
+        {
+          "ranking": 37,
+          "city": "Vienna",
+          "country": "Austria",
+          "arrivals_mm": 6410.3,
+          "growth_perc_year": 3.6,
+          "rank_movement_2013_2018": 8,
+          "city_pt_br": "Viena",
+          "country_pt_br": "Áustria",
+          "continentId": 2
+        },
+        {
+          "ranking": 38,
+          "city": "Johor Bahru",
+          "country": "Malaysia",
+          "arrivals_mm": 6396,
+          "growth_perc_year": 14.8,
+          "rank_movement_2013_2018": 8,
+          "city_pt_br": "Johor Bahru",
+          "country_pt_br": "Malásia",
+          "continentId": 2
+        },
+        {
+          "ranking": 39,
+          "city": "Jaipur",
+          "country": "India",
+          "arrivals_mm": 6383.4,
+          "growth_perc_year": 20.7,
+          "rank_movement_2013_2018": 29,
+          "city_pt_br": "Jaipur",
+          "country_pt_br": "Índia",
+          "continentId": 2
+        },
+        {
+          "ranking": 40,
+          "city": "Cancun",
+          "country": "Mexico",
+          "arrivals_mm": 6041,
+          "growth_perc_year": 0,
+          "rank_movement_2013_2018": 17,
+          "city_pt_br": "Cancún",
+          "country_pt_br": "México",
+          "continentId": 3
+        },
+        {
+          "ranking": 41,
+          "city": "Berlin",
+          "country": "Germany",
+          "arrivals_mm": 5959.4,
+          "growth_perc_year": 5.9,
+          "rank_movement_2013_2018": 10,
+          "city_pt_br": "Berlim",
+          "country_pt_br": "Alemanha",
+          "continentId": 1
+        },
+        {
+          "ranking": 42,
+          "city": "Cairo",
+          "country": "Egypt",
+          "arrivals_mm": 5754.5,
+          "growth_perc_year": 31.1,
+          "rank_movement_2013_2018": 18,
+          "city_pt_br": "Cairo",
+          "country_pt_br": "Egito",
+          "continentId": 5
+        },
+        {
+          "ranking": 43,
+          "city": "Athens",
+          "country": "Greece",
+          "arrivals_mm": 5728.4,
+          "growth_perc_year": 19.4,
+          "rank_movement_2013_2018": 18,
+          "city_pt_br": "Atenas",
+          "country_pt_br": "Grécia",
+          "continentId": 1
+        },
+        {
+          "ranking": 44,
+          "city": "Orlando",
+          "country": "United States",
+          "arrivals_mm": 5553.6,
+          "growth_perc_year": 5.4,
+          "rank_movement_2013_2018": 10,
+          "city_pt_br": "Orlando",
+          "country_pt_br": "Estados Unidos",
+          "continentId": 3
+        },
+        {
+          "ranking": 45,
+          "city": "Moscow",
+          "country": "Russia",
+          "arrivals_mm": 5510,
+          "growth_perc_year": 14.8,
+          "rank_movement_2013_2018": 10,
+          "city_pt_br": "Moscou",
+          "country_pt_br": "Rússia",
+          "continentId": 2
+        },
+        {
+          "ranking": 46,
+          "city": "Venice",
+          "country": "Italy",
+          "arrivals_mm": 5502.5,
+          "growth_perc_year": 3.5,
+          "rank_movement_2013_2018": 16,
+          "city_pt_br": "Veneza",
+          "country_pt_br": "Itália",
+          "continentId": 1
+        },
+        {
+          "ranking": 47,
+          "city": "Madrid",
+          "country": "Spain",
+          "arrivals_mm": 5440.1,
+          "growth_perc_year": 3.2,
+          "rank_movement_2013_2018": 8,
+          "city_pt_br": "Madrid",
+          "country_pt_br": "Espanha",
+          "continentId": 1
+        },
+        {
+          "ranking": 48,
+          "city": "Ha Long",
+          "country": "Vietnam",
+          "arrivals_mm": 5294.8,
+          "growth_perc_year": 22,
+          "rank_movement_2013_2018": 14,
+          "city_pt_br": "Ha Long",
+          "country_pt_br": "Vietnã",
+          "continentId": 2
+        },
+        {
+          "ranking": 49,
+          "city": "Riyadh",
+          "country": "Saudi Arabia",
+          "arrivals_mm": 5267.5,
+          "growth_perc_year": -2.4,
+          "rank_movement_2013_2018": 9,
+          "city_pt_br": "Riade",
+          "country_pt_br": "Arábia Saudita",
+          "continentId": 2
+        },
+        {
+          "ranking": 50,
+          "city": "Dublin",
+          "country": "Ireland",
+          "arrivals_mm": 5213.4,
+          "growth_perc_year": 4.6,
+          "rank_movement_2013_2018": 12,
+          "city_pt_br": "Dublin",
+          "country_pt_br": "Irlanda",
+          "continentId": 1
+        },
+        {
+          "ranking": 51,
+          "city": "Florence",
+          "country": "Italy",
+          "arrivals_mm": 5059.9,
+          "growth_perc_year": 2.4,
+          "rank_movement_2013_2018": 15,
+          "city_pt_br": "Florença",
+          "country_pt_br": "Itália",
+          "continentId": 1
+        },
+        {
+          "ranking": 52,
+          "city": "Ha Noi",
+          "country": "Vietnam",
+          "arrivals_mm": 4687,
+          "growth_perc_year": 9,
+          "rank_movement_2013_2018": 21,
+          "city_pt_br": "Ha Noi",
+          "country_pt_br": "Vietnã",
+          "continentId": 2
+        },
+        {
+          "ranking": 53,
+          "city": "Toronto",
+          "country": "Canada",
+          "arrivals_mm": 4510.3,
+          "growth_perc_year": 5.2,
+          "rank_movement_2013_2018": 0,
+          "city_pt_br": "Toronto",
+          "country_pt_br": "Canadá",
+          "continentId": 3
+        },
+        {
+          "ranking": 54,
+          "city": "Johannesburg",
+          "country": "South Africa",
+          "arrivals_mm": 4120.8,
+          "growth_perc_year": 1.3,
+          "rank_movement_2013_2018": 10,
+          "city_pt_br": "Joanesburgo",
+          "country_pt_br": "África do Sul",
+          "continentId": 5
+        },
+        {
+          "ranking": 55,
+          "city": "Sydney",
+          "country": "Australia",
+          "arrivals_mm": 4090.6,
+          "growth_perc_year": 3.2,
+          "rank_movement_2013_2018": 1,
+          "city_pt_br": "Sydney",
+          "country_pt_br": "Austrália",
+          "continentId": 6
+        },
+        {
+          "ranking": 56,
+          "city": "Munich",
+          "country": "Germany",
+          "arrivals_mm": 4066.6,
+          "growth_perc_year": 6.2,
+          "rank_movement_2013_2018": 7,
+          "city_pt_br": "Munique",
+          "country_pt_br": "Alemanha",
+          "continentId": 1
+        },
+        {
+          "ranking": 57,
+          "city": "Jakarta",
+          "country": "Indonesia",
+          "arrivals_mm": 4033,
+          "growth_perc_year": 12.4,
+          "rank_movement_2013_2018": 17,
+          "city_pt_br": "Jacarta",
+          "country_pt_br": "Indonésia",
+          "continentId": 2
+        },
+        {
+          "ranking": 58,
+          "city": "Beijing",
+          "country": "China",
+          "arrivals_mm": 4002.4,
+          "growth_perc_year": 2,
+          "rank_movement_2013_2018": 25,
+          "city_pt_br": "Pequim",
+          "country_pt_br": "China",
+          "continentId": 2
+        },
+        {
+          "ranking": 59,
+          "city": "St. Petersburg",
+          "country": "Russia",
+          "arrivals_mm": 3996,
+          "growth_perc_year": 11,
+          "rank_movement_2013_2018": 11,
+          "city_pt_br": "São Petersburgo",
+          "country_pt_br": "Rússia",
+          "continentId": 2
+        },
+        {
+          "ranking": 60,
+          "city": "Brussels",
+          "country": "Belgium",
+          "arrivals_mm": 3942,
+          "growth_perc_year": 14.9,
+          "rank_movement_2013_2018": 13,
+          "city_pt_br": "Bruxelas",
+          "country_pt_br": "Bélgica",
+          "continentId": 1
+        },
+        {
+          "ranking": 61,
+          "city": "Jerusalem",
+          "country": "Israel",
+          "arrivals_mm": 3930,
+          "growth_perc_year": 11.6,
+          "rank_movement_2013_2018": 9,
+          "city_pt_br": "Jerusalém",
+          "country_pt_br": "Israel",
+          "continentId": 2
+        },
+        {
+          "ranking": 62,
+          "city": "Budapest",
+          "country": "Hungary",
+          "arrivals_mm": 3822.8,
+          "growth_perc_year": 4.6,
+          "rank_movement_2013_2018": 7,
+          "city_pt_br": "Budapeste",
+          "country_pt_br": "Hungria",
+          "continentId": 1
+        },
+        {
+          "ranking": 63,
+          "city": "Lisbon",
+          "country": "Portugal",
+          "arrivals_mm": 3539.4,
+          "growth_perc_year": 0.5,
+          "rank_movement_2013_2018": 9,
+          "city_pt_br": "Lisboa",
+          "country_pt_br": "Portugal",
+          "continentId": 1
+        },
+        {
+          "ranking": 64,
+          "city": "Dammam",
+          "country": "Saudi Arabia",
+          "arrivals_mm": 3498.9,
+          "growth_perc_year": -2.4,
+          "rank_movement_2013_2018": 14,
+          "city_pt_br": "Dammam",
+          "country_pt_br": "Arábia Saudita",
+          "continentId": 2
+        },
+        {
+          "ranking": 65,
+          "city": "Penang Island",
+          "country": "Malaysia",
+          "arrivals_mm": 3437.1,
+          "growth_perc_year": 7.6,
+          "rank_movement_2013_2018": 2,
+          "city_pt_br": "Ilha de Penang",
+          "country_pt_br": "Malásia",
+          "continentId": 2
+        },
+        {
+          "ranking": 66,
+          "city": "Heraklion",
+          "country": "Greece",
+          "arrivals_mm": 3371.8,
+          "growth_perc_year": 7.1,
+          "rank_movement_2013_2018": 1,
+          "city_pt_br": "Heraklion",
+          "country_pt_br": "Grécia",
+          "continentId": 1
+        },
+        {
+          "ranking": 67,
+          "city": "Kyoto",
+          "country": "Japan",
+          "arrivals_mm": 3294.2,
+          "growth_perc_year": 3,
+          "rank_movement_2013_2018": 58,
+          "city_pt_br": "Quioto",
+          "country_pt_br": "Japão",
+          "continentId": 2
+        },
+        {
+          "ranking": 68,
+          "city": "Zhuhai",
+          "country": "China",
+          "arrivals_mm": 3259.7,
+          "growth_perc_year": 2.4,
+          "rank_movement_2013_2018": 9,
+          "city_pt_br": "Zhuhai",
+          "country_pt_br": "China",
+          "continentId": 2
+        },
+        {
+          "ranking": 69,
+          "city": "Vancouver",
+          "country": "Canada",
+          "arrivals_mm": 3212.1,
+          "growth_perc_year": 7.1,
+          "rank_movement_2013_2018": 13,
+          "city_pt_br": "Vancouver",
+          "country_pt_br": "Canadá",
+          "continentId": 3
+        },
+        {
+          "ranking": 70,
+          "city": "Chiang Mai",
+          "country": "Thailand",
+          "arrivals_mm": 3196,
+          "growth_perc_year": 2.1,
+          "rank_movement_2013_2018": 6,
+          "city_pt_br": "Chiang Mai",
+          "country_pt_br": "Tailândia",
+          "continentId": 2
+        },
+        {
+          "ranking": 71,
+          "city": "Copenhagen",
+          "country": "Denmark",
+          "arrivals_mm": 3069.7,
+          "growth_perc_year": 3.6,
+          "rank_movement_2013_2018": 8,
+          "city_pt_br": "Copenhague",
+          "country_pt_br": "Dinamarca",
+          "continentId": 1
+        },
+        {
+          "ranking": 72,
+          "city": "San Francisco",
+          "country": "United States",
+          "arrivals_mm": 2901,
+          "growth_perc_year": 0,
+          "rank_movement_2013_2018": 14,
+          "city_pt_br": "São Francisco",
+          "country_pt_br": "Estados Unidos",
+          "continentId": 3
+        },
+        {
+          "ranking": 73,
+          "city": "Melbourne",
+          "country": "Australia",
+          "arrivals_mm": 2889,
+          "growth_perc_year": 5.8,
+          "rank_movement_2013_2018": 12,
+          "city_pt_br": "Melbourne",
+          "country_pt_br": "Austrália",
+          "continentId": 6
+        },
+        {
+          "ranking": 74,
+          "city": "Krakow",
+          "country": "Poland",
+          "arrivals_mm": 2850,
+          "growth_perc_year": 1.8,
+          "rank_movement_2013_2018": 8,
+          "city_pt_br": "Cracóvia",
+          "country_pt_br": "Polônia",
+          "continentId": 1
+        },
+        {
+          "ranking": 75,
+          "city": "Marrakech",
+          "country": "Morocco",
+          "arrivals_mm": 2838.1,
+          "growth_perc_year": 6.3,
+          "rank_movement_2013_2018": 2,
+          "city_pt_br": "Marrakech",
+          "country_pt_br": "Marrocos",
+          "continentId": 5
+        },
+        {
+          "ranking": 76,
+          "city": "Kolkatta",
+          "country": "India",
+          "arrivals_mm": 2826.5,
+          "growth_perc_year": 10.4,
+          "rank_movement_2013_2018": 14,
+          "city_pt_br": "Kolkata",
+          "country_pt_br": "Índia",
+          "continentId": 2
+        },
+        {
+          "ranking": 77,
+          "city": "Cebu",
+          "country": "Philippines",
+          "arrivals_mm": 2805.1,
+          "growth_perc_year": 24.9,
+          "rank_movement_2013_2018": 51,
+          "city_pt_br": "Cebu",
+          "country_pt_br": "Filipinas",
+          "continentId": 2
+        },
+        {
+          "ranking": 78,
+          "city": "Auckland",
+          "country": "New Zealand",
+          "arrivals_mm": 2798.9,
+          "growth_perc_year": 5,
+          "rank_movement_2013_2018": 6,
+          "city_pt_br": "Auckland",
+          "country_pt_br": "Nova Zelândia",
+          "continentId": 6
+        },
+        {
+          "ranking": 79,
+          "city": "Tel Aviv",
+          "country": "Israel",
+          "arrivals_mm": 2777,
+          "growth_perc_year": 7.9,
+          "rank_movement_2013_2018": 8,
+          "city_pt_br": "Tel Aviv",
+          "country_pt_br": "Israel",
+          "continentId": 2
+        },
+        {
+          "ranking": 80,
+          "city": "Guilin",
+          "country": "China",
+          "arrivals_mm": 2747,
+          "growth_perc_year": 10.4,
+          "rank_movement_2013_2018": 29,
+          "city_pt_br": "Guilin",
+          "country_pt_br": "China",
+          "continentId": 2
+        },
+        {
+          "ranking": 81,
+          "city": "Honolulu",
+          "country": "United States",
+          "arrivals_mm": 2737.3,
+          "growth_perc_year": 1.9,
+          "rank_movement_2013_2018": 11,
+          "city_pt_br": "Honolulu",
+          "country_pt_br": "Estados Unidos",
+          "continentId": 3
+        },
+        {
+          "ranking": 82,
+          "city": "Hurghada",
+          "country": "Egypt",
+          "arrivals_mm": 2735.7,
+          "growth_perc_year": 46.8,
+          "rank_movement_2013_2018": 45,
+          "city_pt_br": "Hurghada",
+          "country_pt_br": "Egito",
+          "continentId": 5
+        },
+        {
+          "ranking": 83,
+          "city": "Warsaw",
+          "country": "Poland",
+          "arrivals_mm": 2732,
+          "growth_perc_year": 3.9,
+          "rank_movement_2013_2018": 16,
+          "city_pt_br": "Varsóvia",
+          "country_pt_br": "Polônia",
+          "continentId": 1
+        },
+        {
+          "ranking": 84,
+          "city": "Mugla",
+          "country": "Turkey",
+          "arrivals_mm": 2723.8,
+          "growth_perc_year": 37.4,
+          "rank_movement_2013_2018": 33,
+          "city_pt_br": "Mugla",
+          "country_pt_br": "Turquia",
+          "continentId": 2
+        },
+        {
+          "ranking": 85,
+          "city": "Buenos Aires City",
+          "country": "Argentina",
+          "arrivals_mm": 2685.7,
+          "growth_perc_year": 5.2,
+          "rank_movement_2013_2018": 31,
+          "city_pt_br": "Buenos aires",
+          "country_pt_br": "Argentina",
+          "continentId": 4
+        },
+        {
+          "ranking": 86,
+          "city": "Chiba",
+          "country": "Japan",
+          "arrivals_mm": 2683.9,
+          "growth_perc_year": 10.4,
+          "rank_movement_2013_2018": 106,
+          "city_pt_br": "Chiba",
+          "country_pt_br": "Japão",
+          "continentId": 2
+        },
+        {
+          "ranking": 87,
+          "city": "Frankfurt",
+          "country": "Germany",
+          "arrivals_mm": 2636,
+          "growth_perc_year": 5.6,
+          "rank_movement_2013_2018": 7,
+          "city_pt_br": "Frankfurt",
+          "country_pt_br": "Alemanha",
+          "continentId": 1
+        },
+        {
+          "ranking": 88,
+          "city": "Stockholm",
+          "country": "Sweden",
+          "arrivals_mm": 2604.6,
+          "growth_perc_year": 5.3,
+          "rank_movement_2013_2018": 0,
+          "city_pt_br": "Estocolmo",
+          "country_pt_br": "Suécia",
+          "continentId": 1
+        },
+        {
+          "ranking": 89,
+          "city": "Lima",
+          "country": "Peru",
+          "arrivals_mm": 2535.4,
+          "growth_perc_year": 8,
+          "rank_movement_2013_2018": 11,
+          "city_pt_br": "Lima",
+          "country_pt_br": "Peru",
+          "continentId": 4
+        },
+        {
+          "ranking": 90,
+          "city": "Da Nang",
+          "country": "Vietnam",
+          "arrivals_mm": 2505,
+          "growth_perc_year": 25,
+          "rank_movement_2013_2018": 72,
+          "city_pt_br": "Da Nang",
+          "country_pt_br": "Vietnã",
+          "continentId": 2
+        },
+        {
+          "ranking": 91,
+          "city": "Batam",
+          "country": "Indonesia",
+          "arrivals_mm": 2492.6,
+          "growth_perc_year": 11.9,
+          "rank_movement_2013_2018": 20,
+          "city_pt_br": "Batam",
+          "country_pt_br": "Indonésia",
+          "continentId": 2
+        },
+        {
+          "ranking": 92,
+          "city": "Nice",
+          "country": "France",
+          "arrivals_mm": 2466.8,
+          "growth_perc_year": 6,
+          "rank_movement_2013_2018": 17,
+          "city_pt_br": "Nice",
+          "country_pt_br": "França",
+          "continentId": 1
+        },
+        {
+          "ranking": 93,
+          "city": "Fukuoka",
+          "country": "Japan",
+          "arrivals_mm": 2436.9,
+          "growth_perc_year": 20.3,
+          "rank_movement_2013_2018": 104,
+          "city_pt_br": "Fukuoka",
+          "country_pt_br": "Japão",
+          "continentId": 2
+        },
+        {
+          "ranking": 94,
+          "city": "Abu Dhabi",
+          "country": "United Arab Emirates",
+          "arrivals_mm": 2402.8,
+          "growth_perc_year": 7.1,
+          "rank_movement_2013_2018": 12,
+          "city_pt_br": "Abu Dhabi",
+          "country_pt_br": "Emirados Árabes Unidos",
+          "continentId": 2
+        },
+        {
+          "ranking": 95,
+          "city": "Jeju",
+          "country": "South Korea",
+          "arrivals_mm": 2349.2,
+          "growth_perc_year": -3.3,
+          "rank_movement_2013_2018": 8,
+          "city_pt_br": "Jeju",
+          "country_pt_br": "Coreia do Sul",
+          "continentId": 2
+        },
+        {
+          "ranking": 96,
+          "city": "Porto",
+          "country": "Portugal",
+          "arrivals_mm": 2341.3,
+          "growth_perc_year": 4.9,
+          "rank_movement_2013_2018": 22,
+          "city_pt_br": "Porto",
+          "country_pt_br": "Portugal",
+          "continentId": 1
+        },
+        {
+          "ranking": 97,
+          "city": "Rhodes",
+          "country": "Greece",
+          "arrivals_mm": 2337.7,
+          "growth_perc_year": 7.3,
+          "rank_movement_2013_2018": 11,
+          "city_pt_br": "Rodes",
+          "country_pt_br": "Grécia",
+          "continentId": 2
+        },
+        {
+          "ranking": 98,
+          "city": "Rio de Janeiro",
+          "country": "Brazil",
+          "arrivals_mm": 2278.3,
+          "growth_perc_year": 1.2,
+          "rank_movement_2013_2018": 7,
+          "city_pt_br": "Rio de Janeiro",
+          "country_pt_br": "Brasil",
+          "continentId": 4,
+          "image_city": "/images/cities/city_rio_de_janeiro.jpg",
+          "image_country_flag": "/images/countries/flag_china.png",
+          "sections": [
+            1,
+            3,
+            8
+          ]
+        },
+        {
+          "ranking": 99,
+          "city": "Krabi",
+          "country": "Thailand",
+          "arrivals_mm": 2255.3,
+          "growth_perc_year": 6.5,
+          "rank_movement_2013_2018": 5,
+          "city_pt_br": "Krabi",
+          "country_pt_br": "Tailândia",
+          "continentId": 2
+        },
+        {
+          "ranking": 100,
+          "city": "Bangalore",
+          "country": "India",
+          "arrivals_mm": 2239.2,
+          "growth_perc_year": 25.7,
+          "rank_movement_2013_2018": 83,
+          "city_pt_br": "Bangalore",
+          "country_pt_br": "Índia",
+          "continentId": 2
+        }
+    ]
+}
