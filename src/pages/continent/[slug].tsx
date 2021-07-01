@@ -1,7 +1,19 @@
 import {
     Box,
     Flex,
-    Icon, Link, Popover, PopoverArrow, PopoverBody, PopoverCloseButton, PopoverContent, PopoverFooter, PopoverHeader, PopoverTrigger, SimpleGrid, Text, VStack
+    Icon, 
+    Link, 
+    Popover, 
+    PopoverArrow, 
+    PopoverBody, 
+    PopoverCloseButton, 
+    PopoverContent, 
+    PopoverFooter, 
+    PopoverHeader, 
+    PopoverTrigger, 
+    SimpleGrid, 
+    Text, 
+    VStack
 } from "@chakra-ui/react";
 import { GetStaticPaths, GetStaticProps } from "next";
 import React from "react";
