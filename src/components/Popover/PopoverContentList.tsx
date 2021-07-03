@@ -1,4 +1,4 @@
-import { Circle, Flex, HStack, Text } from "@chakra-ui/react";
+import { Circle, Flex, HStack, Text, Box } from "@chakra-ui/react";
 import { ReactElement } from "react";
 
 interface PopoverContentListProps {
@@ -29,10 +29,10 @@ export function PopoverContentList({ title, value, colorBullet=null }: PopoverCo
                     { title }
                 </Text>
             </HStack>
-            <Text
+            <Box
                 fontSize="12px"
                 fontWeight="600"
-            >{ value }</Text>
+            >{ value }</Box>
         </Flex>
     )
 }

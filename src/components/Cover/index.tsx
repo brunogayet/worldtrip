@@ -1,4 +1,4 @@
-import { Box, Flex, Image, useBreakpointValue } from "@chakra-ui/react";
+import { Box, Flex, useBreakpointValue, Text } from "@chakra-ui/react";
 
 interface CoverProps {
     title: string;
@@ -15,7 +15,11 @@ export function Cover({ title, image }: CoverProps) {
     return (
         <Flex
             w="100%"
-            h="500px"
+            h={[
+                "200px",
+                "350px",
+                "500px"
+            ]}
             bg={`url(${image}) center no-repeat`}
             bgSize="cover"
             alignItems="center"
@@ -25,15 +29,46 @@ export function Cover({ title, image }: CoverProps) {
                 position="relative"
                 w="100%"
                 h="100%"
-                pt="369px"
-                pl="140px"
                 color="gray.50"
                 fontSize={[
+                    "1.75rem",
                     "3rem"
                 ]}
                 fontWeight="600"
             >
-                { title }
+                <Box 
+                    d="flex"
+                    alignItems={[
+                        "center",
+                        "center",
+                        "center",
+                        "normal"
+                    ]}
+                    justifyContent={[
+                        "center",
+                        "center",
+                        "center",
+                        "normal"
+                    ]}
+                    pt={[
+                        "auto",
+                        "auto",
+                        "auto",
+                        "369px" 
+                    ]}
+                    px={[
+                        "auto",
+                        "auto",
+                        "16px",
+                        "140px",
+                        "140px"
+                    ]}    
+                    maxWidth={1440} 
+                    h="100%"
+                    mx="auto"
+                >
+                    <Text>{ title }</Text>
+                </Box>
             </Box>
         </Flex>
     )

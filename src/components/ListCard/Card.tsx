@@ -14,7 +14,8 @@ import {
     PopoverHeader, 
     PopoverTrigger, 
     VStack,
-    Link
+    Link,
+    useBreakpointValue
 } from "@chakra-ui/react";
 
 import React from "react";
@@ -46,92 +47,102 @@ export function Card({
     growth_perc_year,
     rank_movement_2018_2019
 }: CardProps) {
+    
     return (
         <Box
-            maxW="256px" 
+            maxW={[
+                "356px",
+                "356px",
+                "256px"
+            ]}
             borderRadius="lg" 
             overflow="hidden"
         >
             <Image
-                boxSize="256px"
+                w={[
+                    "356px",
+                    "356px",
+                    "256px"
+                ]}
                 h="179px"
-                objectFit="cover"                
+                objectFit="cover"
+                objectPosition="center"
                 src={image_city} 
                 alt="Image city" 
             />
 
-            <Popover placement="left">
+            <Popover placement="auto">
                 <PopoverTrigger>
                     <Box
                         tabIndex={0}
                         role="button"
                         aria-label="Info Cities"
                     >
-                     <Box 
-                        role="button"
-                        p="6" 
-                        borderWidth="1px"
-                        borderColor="rgba(255, 186, 8, 0.5)"
-                        borderTop="0px"
-                        borderBottomLeftRadius="lg"
-                        borderBottomRightRadius="lg"
-                    >
-                        <Flex
-                            alignItems="center"
-                            justifyContent="space-between"
+                        <Box 
+                            role="button"
+                            p="6" 
+                            borderWidth="1px"
+                            borderColor="rgba(255, 186, 8, 0.5)"
+                            borderTop="0px"
+                            borderBottomLeftRadius="lg"
+                            borderBottomRightRadius="lg"
                         >
-                            <Box>
-                            
-                                <Flex 
-                                    alignItems="center"
-                                    pb="4px"
-                                >
-                                    <Icon 
-                                        as={FaMedal} 
-                                        w="16px"
-                                        h="16px"
-                                        mr="4px"
-                                        color="teal"
-                                    />
-                                    <Text
-                                        fontSize="12px"
-                                        fontWeight="400" 
-                                    >
-                                        { ranking }º
-                                    </Text>
-                                </Flex>
-
-                                <Heading
-                                    pb="12px"
-                                    fontFamily="Barlow"
-                                    fontSize="1.25rem"
-                                    fontWeight="600"
-                                    lineHeight="25px"
-                                >
-                                    { city_pt_br }
-                                </Heading>
+                            <Flex
+                                alignItems="center"
+                                justifyContent="space-between"
+                            >
+                                <Box>
                                 
-                                <Text
-                                    color="gray.450"
-                                    fontFamily="Barlow"
-                                    fontSize="1rem"
-                                    fontWeight="500"
-                                    lineHeight="26px"
-                                >
-                                    { country_pt_br }
-                                </Text>
-                            </Box>
+                                    <Flex 
+                                        alignItems="center"
+                                        pb="4px"
+                                    >
+                                        <Icon 
+                                            as={FaMedal} 
+                                            w="16px"
+                                            h="16px"
+                                            mr="4px"
+                                            color="teal"
+                                        />
+                                        <Text
+                                            fontSize="12px"
+                                            fontWeight="400" 
+                                        >
+                                            { ranking }º
+                                        </Text>
+                                    </Flex>
 
-                            <Box>
-                                <Image 
-                                    borderRadius="full"
-                                    boxSize="30px"
-                                    src={image_country_flag} 
-                                    alt="Country Flag" 
-                                />
-                            </Box>
-                        </Flex>
-                    </Box>   
+                                    <Heading
+                                        pb="12px"
+                                        fontFamily="Barlow"
+                                        fontSize="1.25rem"
+                                        fontWeight="600"
+                                        lineHeight="25px"
+                                    >
+                                        { city_pt_br }
+                                    </Heading>
+                                    
+                                    <Text
+                                        color="gray.450"
+                                        fontFamily="Barlow"
+                                        fontSize="1rem"
+                                        fontWeight="500"
+                                        lineHeight="26px"
+                                    >
+                                        { country_pt_br }
+                                    </Text>
+                                </Box>
+
+                                <Box>
+                                    <Image 
+                                        borderRadius="full"
+                                        boxSize="30px"
+                                        src={image_country_flag} 
+                                        alt="Country Flag" 
+                                    />
+                                </Box>
+                            </Flex>
+                        </Box>   
                     </Box>
                 </PopoverTrigger>
                 <PopoverContent

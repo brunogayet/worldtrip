@@ -1,7 +1,8 @@
-import { Divider, Flex } from '@chakra-ui/react'
+import { Divider, Flex, Text, Image, Link } from '@chakra-ui/react'
 import { Banner } from '../components/Banner'
 import { CTA } from '../components/CTA'
 import { Header } from '../components/Header'
+import { Research } from '../components/Research'
 import { Section } from '../components/Secao'
 
 
@@ -10,7 +11,6 @@ export default function Home() {
   return (
     <Flex
       direction="column"
-      h="100vh"
     >
       <Header />
       
@@ -31,6 +31,8 @@ export default function Home() {
         ]}
       >
         
+        <Research />
+
         <Section />
 
         <Divider

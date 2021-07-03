@@ -17,7 +17,10 @@ export function Header({ backButton = false }: HeaderProps) {
         <Flex
             as="header"
             w="100%"
-            h="100"
+            h={[
+                "50px",
+                "100px"
+            ]}
             mx="auto" 
             mt="1"
             align="center"
@@ -26,10 +29,16 @@ export function Header({ backButton = false }: HeaderProps) {
                 <IconButton
                     aria-label="Back navigation"
                     icon={<Icon as={RiArrowLeftSLine} />}
-                    fontSize="32"
+                    fontSize={[
+                        "24",
+                        "32"
+                    ]}
                     variant="unstyled"
                     position="absolute"
-                    top="30px"
+                    top={[
+                        "10px",
+                        "30px"
+                    ]}
                     left={[
                         "25px",
                         "70px",

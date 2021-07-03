@@ -29,8 +29,18 @@ export function ListCard({ listCards }: ListCardProps) {
                 3,
                 4
             ]}
-            pt="40px"
-            pb="40px"
+            pt={[
+                "20px",
+                "40px"
+            ]}
+            pb={[
+                "20px",
+                "40px"
+            ]}
+            px={[
+                "40px",
+                "auto"
+            ]}
             gap={[
                 "4", 
                 "4",
@@ -40,7 +50,7 @@ export function ListCard({ listCards }: ListCardProps) {
                 "12"
             ]}
             rowGap={[
-                "12",
+                "6",
                 "12",
                 "12",
                 "16",
@@ -48,6 +58,7 @@ export function ListCard({ listCards }: ListCardProps) {
                 "16"
             ]}
             justifyContent="space-around"
+            justifyItems="center"
             alignItems="baseline"
         >
 

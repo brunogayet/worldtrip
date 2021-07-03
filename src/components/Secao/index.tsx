@@ -24,8 +24,10 @@ export function Section() {
             direction={["row"]}
             mt={[
                 "0px",
+                "18px",
                 "50px", 
-                "90px"
+                "50px", 
+                "60px"
             ]}
             flex="1"
             flexWrap="wrap"

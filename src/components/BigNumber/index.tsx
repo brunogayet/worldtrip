@@ -9,10 +9,20 @@ interface BigNumberProps {
 
 export default function BigNumber({ numberHighlight, description, children }: BigNumberProps) {
     return (
-        <VStack>
+        <VStack 
+            h="100%" 
+            justifyContent="center"
+            alignItems={[
+                "baseline",
+                "center"
+            ]}
+        >
             <Box
                 color="yellow.50"
-                fontSize="3rem"
+                fontSize={[
+                    "1.75rem",
+                    "3rem"
+                ]}
                 fontWeight="600"
                 lineHeight="32px"
             >
@@ -20,13 +30,20 @@ export default function BigNumber({ numberHighlight, description, children }: Bi
             </Box>
             <Flex
                 color="gray.600"
-                fontSize="1.35rem"
-                fontWeight="600"
+                fontSize={[
+                    "0.875rem",
+                    "1.35rem"
+                ]}
+                fontWeight={[
+                    "400",
+                    "600"
+                ]}
                 alignItems="center"
             >
                 <Text>{ description }</Text>
 
                 { children }
+                
             </Flex>
         </VStack>
     );

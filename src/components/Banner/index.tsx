@@ -10,7 +10,10 @@ export function Banner() {
     return (
         <Flex
             w="100%"
-            h="335px"
+            h={[
+                "200px",
+                "335px"
+            ]}
             bg="url('/images/background.svg') no-repeat"
             bgSize="cover"
             alignItems="center"
@@ -49,7 +52,7 @@ export function Banner() {
                         <Text>infinitas possibilidades.</Text>
                     </Heading>
 
-                    <Text
+                    <Box
                         w={[
                             "22rem", 
                             "24rem", 
@@ -70,8 +73,8 @@ export function Banner() {
                             "1.875rem"
                         ]}
                     >
-                        Chegou a hora de tirar do papel a viagem que você sempre sonhou. 
-                    </Text>
+                        Chegou a hora de tirar do papel a viagem que você sempre sonhou.
+                    </Box>
                 </Stack>
                 
             </Box>

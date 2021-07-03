@@ -119,47 +119,58 @@ export default function Continent({ continent }: ContinentProps) {
 
             <Flex 
                 direction="column"
-                w="100%"
                 maxW={1440}
                 my={[
-                    "3", 
+                    "0", 
                     "6"
                 ]}
                 mx="auto"
                 px={[
-                    "0", 
-                    "6"
-                ]}
+                    "16px",
+                    "16px",
+                    "140px",
+                    "140px"
+                ]} //TODO: CRIAR ARRAY
             >
                 <SimpleGrid 
-                    mt="60px"
+                    w="100%"
                     columns={2}
+                    mt={[
+                        "24px",
+                        "60px"
+                    ]}
+                    mx="auto"
+                    minChildWidth={[
+                        "auto",
+                        "490px"
+                    ]}
                 >
                     <Box
-                        fontSize="1.2rem"
-                        fontWeight="400"
-                        lineHeight="32px"
-                        textAlign="justify"
-                        w="100%"
-                        pl={[
-                            "120px", 
-                            "120px", 
-                            "120px", 
-                            "120px", 
-                            "120px", 
-                            "0px"
+                        fontSize={[
+                            "0.875rem",
+                            "1.2rem"
                         ]}
-                        pr={["16px", "16px", "16px", "2px"]}
-                        m="auto"
+                        fontWeight="400"
+                        lineHeight={[
+                            "21px",
+                            "32px"
+                        ]}
+                        textAlign="justify"
                     >
                         { continent?.description }
                     </Box>
+
                     <SimpleGrid 
                         columns={3}
-                        w="100%"
                         alignItems="center"
-                        pl="92px"
-                        pr="92px"
+                        mt={[
+                            "18px",
+                            "48px",
+                            "48px",
+                            "48px",
+                            "0px",
+                            "0px"
+                        ]}
                     >
                         <BigNumber
                             numberHighlight={continent?.amount_countries}
@@ -170,7 +181,7 @@ export default function Continent({ continent }: ContinentProps) {
                             numberHighlight={continent?.amount_languages}
                             description="línguas"
                         >
-                            <Popover>
+                            <Popover placement="bottom-end">
                                 <PopoverTrigger>
                                     <Box
                                         tabIndex={0}
@@ -253,7 +264,10 @@ export default function Continent({ continent }: ContinentProps) {
                             numberHighlight={continent?.wpFcTop100Cities19.length}
                             description="cidades +100"
                         >
-                            <Popover>
+                            <Popover 
+                                placement="bottom-end" 
+                                strategy="fixed"
+                            >
                                 <PopoverTrigger>
                                     <Box
                                         tabIndex={0}
@@ -303,6 +317,7 @@ export default function Continent({ continent }: ContinentProps) {
 
                                             { orderedRankingCountries.map((summary, i) => (
                                                 <PopoverContentList 
+                                                    key={i}
                                                     title={`${i + 1} - ${summary.country} (${summary.total_cities})`}   
                                                     value={Number(summary.total_arrivals_mm).toFixed(1)}
                                                 />
@@ -340,18 +355,18 @@ export default function Continent({ continent }: ContinentProps) {
                 </SimpleGrid>
 
                 <Box 
-                    mt="70px"
-                    pl={[
-                        "120px", 
-                        "120px", 
-                        "120px", 
-                        "120px", 
-                        "120px", 
-                        "0px"
+                    w="100%"
+                    mt={[
+                        "24px",
+                        "70px"
                     ]}
+                    mx="auto"
                 >
                     <Text
-                        fontSize="2rem"
+                        fontSize={[
+                            "1.5rem",
+                            "2rem"
+                        ]}
                         fontWeight="500"
                     >
                         Cidades +100
