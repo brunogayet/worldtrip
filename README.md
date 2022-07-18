@@ -1,5 +1,8 @@
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=OPEN%20PROJECT&color=GREEN&style=for-the-badge)
+
 # About
-Project that demonstrates the creation of an online course platform using great technologies available in the market today. The entire project was based on a microservices architecture.
+Project called "World Trip" has the purpose to orient the user on the best choice to travel based on the 100 most visited cities in the world ranking
+** Website based on data provided by the research firm Euromonitor International
 
 # Technologies
 
@@ -13,6 +16,14 @@ Project that demonstrates the creation of an online course platform using great 
 - Chakra UI
 
 ## Final application screens
+![wordTrip1](https://user-images.githubusercontent.com/6998981/179617886-c1d5c221-50b8-44b4-8055-9aab0eabbea6.jpeg)
+![worldTrip2](https://user-images.githubusercontent.com/6998981/179617932-465d63e8-c373-44c1-ae0f-ba3d4ca4d29d.jpeg)
+![worldTrip3](https://user-images.githubusercontent.com/6998981/179617947-d90cc309-2f2a-49df-90aa-5313fb6866ec.jpeg)
+![worldTrip4](https://user-images.githubusercontent.com/6998981/179617964-e935e8a0-f402-48b4-9a79-f642deb264e0.jpeg)
+
+### Responsive screens
+
+https://user-images.githubusercontent.com/6998981/179620221-490a92d5-26a2-48b3-9b12-cbda3a81e620.mp4
 
 
 
